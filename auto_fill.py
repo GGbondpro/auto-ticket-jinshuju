@@ -22,10 +22,10 @@ phone.clear()
 student_id.clear()
 id.clear()
 #填写文本框
-name.send_keys("王鑫培")
-phone.send_keys("17841733149")
-student_id.send_keys("3022244362")
-id.send_keys("440983200310308018")
+name.send_keys("")
+phone.send_keys("")
+student_id.send_keys("")
+id.send_keys("")
 #一些按钮
 campus.click()
 button.click()
@@ -36,6 +36,9 @@ print("successfully!")
 driver.quit()
 
 
+
+
+# 以下位临时记录，不用管
 """
 /html/body/div[1]/div/div/form/div[3]/div/div[2]/div/div/div[2]/div[1]/div/div/div/span/input
 /html/body/div[1]/div/div/form/div[3]/div/div[4]/div/div/div[2]/div[1]/div/div/div/div/span/input
